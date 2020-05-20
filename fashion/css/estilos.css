@@ -1,0 +1,321 @@
+/* Estilos generales */
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+	max-width: 1300px;
+	width: 90%;
+	margin: auto;
+}
+
+.menu{
+	background: white;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+h1, h2, p{
+	margin: 0;
+}
+
+hr{
+	margin: 0;
+	width: 10%;
+	border: 1.5px solid #fbb893;
+}
+
+ul{
+	list-style: none;
+}
+
+.boton{
+	background: #ff6a88;
+	padding: 15px;
+	display: inline-block;
+	margin-top: 20px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+.menu-icon{
+	display: none;
+	width: 40px;
+	height: 40px;
+}
+
+/* Estilos para el header */
+
+header .menu-principal{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo{
+	letter-spacing: 45px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+header nav ul{
+	display: flex;
+}
+
+header nav ul li{
+	padding: 0 20px;
+}
+
+#titulos{
+	background: url(../img/header-fondo.jpg) 100% 20%;
+	background-size: cover;
+	color: white;
+	height: 800px;
+}
+
+#titulos .titulos{
+	padding: 300px 0;
+} 
+
+#titulos h1{
+	font-size: 50px;
+	font-weight: 500;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+#titulos p{
+	width: 50%;
+	opacity: .8;
+	line-height: 32px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+/* EStilos para la sección que hacemos */
+
+#que-hacemos{
+	margin-top: 90px;
+}
+
+#que-hacemos .que-hacemos{
+	display: flex;
+	justify-content: center;
+}
+
+#que-hacemos .izquierda, #que-hacemos .derecha{
+	height: 550px;
+	width: 50%;
+}
+
+#que-hacemos .derecha{
+	-webkit-box-shadow: 10px 21px 20px 0px rgba(0,0,0,.2);
+	-moz-box-shadow: 10px 21px 20px 0px rgba(0,0,0,.2);
+	box-shadow: 10px 21px 20px 0px rgba(0,0,0,.2);
+}
+
+#que-hacemos h2{
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+#que-hacemos .izquierda{
+	background: linear-gradient(35deg,#ff6a88 0%,#ff99ac 100%);;
+	width: 500px;
+	position: relative;
+}
+
+#que-hacemos h2, #que-hacemos p{
+	width: 80%;
+	margin: auto;
+}
+
+#que-hacemos h2{
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+#que-hacemos .boton, #que-hacemos hr{
+	margin-left: 60px;
+}
+
+#que-hacemos p{
+	color: gray;
+	line-height: 32px;
+	margin-top: 20px;
+}
+
+.foto-que-hacemos{
+	position: absolute;
+	left: 50px;
+	top: -20px;
+	-webkit-box-shadow: 10px 21px 20px 0px rgba(0,0,0,.2);
+	-moz-box-shadow: 10px 21px 20px 0px rgba(0,0,0,.2);
+	box-shadow: 10px 21px 20px 0px rgba(0,0,0,.2);
+}
+
+#que-hacemos .boton{
+	-webkit-box-shadow: 0px 10px 40px 0px rgba(255,153,172,1);
+	-moz-box-shadow: 0px 10px 40px 0px rgba(255,153,172,1);
+	box-shadow: 0px 10px 40px 0px rgba(255,153,172,1);
+}
+
+
+/* Estilos para la sección linea-verano */
+
+#linea-verano{
+	margin-top: 120px;
+	text-align: center;
+}
+
+#linea-verano hr{
+	margin: auto;
+}
+
+#linea-verano h2{
+	font-size: 40px;
+	color: #333;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+#linea-verano p{
+	width: 60%;
+	margin: auto;
+	color: gray;
+	margin-top: 20px;
+	line-height: 28px;
+}
+
+#linea-verano .linea-verano{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+
+#linea-verano .item{
+	width: 22%;
+}
+
+#linea-verano .item img{
+	width: 100%;
+}
+
+#linea-verano .item p{
+	text-align: left;
+	margin: 0;
+	width: 100%;
+	color: #333;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+#linea-verano .boton{
+	border: 1px solid gray;
+	color: #333;
+	background: none;
+	margin-top: 40px;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+}
+
+
+/* Estilos para la sección de contacto e info de la empresa */
+
+#contacto-datos{
+	margin-top: 90px;
+}
+
+#contacto-datos .contacto-datos{
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(131deg,#ff6a88 0%,#ff99ac 100%);
+	padding: 90px 0;
+	color: white;
+}
+
+#contacto-datos .noticias{
+	width: 40%;
+}
+
+#contacto-datos .noticias, #contacto-datos .info{
+	margin-top: 50px;
+}
+
+#contacto-datos h2{
+	font-size: 35px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+input[type='email'], input[type='submit']{
+	width: 80%;
+	padding: 17px 0 17px 20px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	font-size: 17px;
+}
+
+input[type='submit']{
+	display: inline-block;
+	width: 84%;
+	-webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.3);
+	background: #f7d584;
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+#contacto-datos ul{
+	padding: 0;
+	color: #333;
+	opacity: .9;
+	line-height: 32px;
+}
+
+#contacto-datos li.down{
+	width: 70%;
+}
+
+#contacto-datos .info.uno{
+	width: 20%;
+}
+
+#contacto-datos span{
+	font-weight: 600;
+}
+
+/* Estilos para el footer */
+
+footer{
+	background: #151515;
+	padding: 20px 0;
+}
+
+footer p{
+	color: gray;
+	text-align: center;
+}
+
+
+

@@ -1,0 +1,95 @@
+@media (max-width: 800px){
+
+	/* Estilos para el header */
+	.menu-icon{
+		display: block;
+	}
+
+	header .logo{
+		letter-spacing: 20px;
+	}
+
+	header nav{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background: white;
+		width: 100%;
+		display: none;
+	}
+
+	header nav ul{
+		display: block;
+	}
+
+	header nav ul li{
+		margin-bottom: 20px;
+	}
+
+	#titulos .titulos{
+		padding: 90px 0;
+	} 
+
+	#titulos h1{
+		font-size: 40px;
+	}
+
+	#titulos p{
+		width: 100%;
+	}
+
+	#titulos{
+		background: url(../img/header-fondo.jpg) 70% 5%;
+	}
+	
+	/* Estilos para la sección lo que hacemos */
+
+	#que-hacemos .que-hacemos{
+		flex-direction: column;
+	}
+
+	#que-hacemos .izquierda{
+		width: 100%;
+		height: 350px;
+	}
+
+	#que-hacemos .derecha{
+		width: 100%;
+	}
+	
+	.foto-que-hacemos{
+		left: 30px;
+		width: 80%;
+	}
+
+	#linea-verano p{
+		width: 100%;
+	}
+
+	#linea-verano .linea-verano{
+		flex-direction: column;
+	}
+
+	#linea-verano .item{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#contacto-datos .contacto-datos{
+		flex-direction: column;
+	}
+
+	#contacto-datos .noticias, #contacto-datos .info, 
+	#contacto-datos .info.uno, #contacto-datos li.down{
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+
+	#contacto-datos .contenedor{
+		width: 100%;
+	}
+
+
+
+}
